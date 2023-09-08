@@ -1,0 +1,30 @@
+ul.nav-area {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul li.nav-item {
+  overflow: hidden;
+  padding: 15px 0;
+}
+
+ul li.nav-item a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #319dc1;
+  font-size: 18px;
+  padding: 20px;
+}
+
+ul li.nav-item a:hover {
+  color: #35bae7;
+}
+
+ul li.nav-item:hover {
+  z-index: 10;
+}
+
+ul li.nav-item:hover .sub-menu {
+  display: block;
+}

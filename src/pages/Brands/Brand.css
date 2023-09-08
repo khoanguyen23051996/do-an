@@ -1,0 +1,25 @@
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+.wrapper {
+    margin-top: 50px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+}
+
+.notification {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+img {
+    align-items: center;
+}
