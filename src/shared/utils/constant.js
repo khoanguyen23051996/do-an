@@ -92,6 +92,10 @@ export const navItems = [
       },
     ],
   },
+  {
+    label: "Gio hang",
+    path: "/cart",
+  }
 ];
 
 export const socialItems = [
@@ -119,24 +123,28 @@ export const ramBrands = [
     url: "samsung",
     products: [
       {
+        id: 1,
         logo: 'https://xgear.net/wp-content/uploads/2022/12/Ram_Laptop_OEM.jpeg',
         name: "Samsung 8GB",
         url: "samsung-8gb",
         description: "Ram Laptop Samsung 8GB DDR5 Bus 4800Mhz (M425R1GB4BB0-CQKOD)"
       },
       {
+        id: 2,
         logo: 'https://media.kingston.com/kingston/product/ktc-product-memory-beast-ddr4-se-productcard-tn.png',
         name: "Samsung 8GB",
-        url: "samsung-8gb",
+        url: "samsung-8gb-2",
         description: "lorem 20"
       },
       {
+        id: 3,
         logo: 'https://media.kingston.com/kingston/product/ktc-product-memory-beast-ddr4-se-productcard-tn.png',
         name: "Samsung 16GB",
         url: "samsung-16gb",
         description: "lorem 20"
       },
       {
+        id: 4,
         logo: 'https://media.kingston.com/kingston/product/ktc-product-memory-beast-ddr4-se-productcard-tn.png',
         name: "Samsung 16GB",
         url: "samsung-16gb",
@@ -243,6 +251,7 @@ export const ssdBrands = [
     url: "samsung",
     products: [
       {
+        id: 1,
         logo: 'https://media.kingston.com/kingston/product/ktc-product-memory-beast-ddr4-se-productcard-tn.png',
         name: "Samsung 8GB",
         url: "samsung-8gb",

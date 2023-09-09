@@ -4,6 +4,7 @@ import { Layout } from "./components";
 import { CPU, Home, Keyboard, Monitor, Mouse, Ram, SSD } from "./pages";
 import { Brand } from "./pages/Brands/Brand";
 import { ProductDetail } from "./pages/ProductDetail/ProductDetail";
+import { Cart } from "./pages/Cart/Cart";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
           <Route path="/monitor" element={<Monitor />} />
           <Route path="/mouse" element={<Mouse />} />
           <Route path="/keyboard" element={<Keyboard />} />
+          <Route path="/cart" element={<Cart />} />
         </Routes>
       </Layout>
     </>
