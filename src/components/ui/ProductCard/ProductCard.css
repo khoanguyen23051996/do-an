@@ -1,3 +1,7 @@
 .product-samsung {
     text-align: center;
 }
+
+.product-card img {
+    width: 300px;
+}

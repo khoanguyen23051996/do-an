@@ -8,7 +8,6 @@ export const BrandCard = ({ logo,url,name  }) => {
       <div>
         <p>{name}</p>
       </div>
-        
-      </Link>
+    </Link>
   </div>;
 };

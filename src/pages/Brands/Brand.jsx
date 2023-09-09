@@ -19,5 +19,4 @@ export const Brand = () => {
     : <div className="notification">Không tìm thấy nhãn hàng</div>
     }   
   </div>;
-
 };

@@ -1,5 +1,5 @@
 import "./Keyboard.css";
-import { ramBrands } from "../../shared/utils/constant"
+import { keyboardBrands } from "../../shared/utils/constant"
 import { BrandCard } from "../../components/ui/BrandCard/BrandCard";
 
 export const Keyboard = () => {
@@ -7,7 +7,7 @@ export const Keyboard = () => {
 
   return <div className="container">
     <div className="wrapper">
-      {ramBrands.map((brand, index) => <BrandCard key={index} name={brand.name} logo={brand.logo} url={brand.url} />)}
+      {keyboardBrands.map((brand, index) => <BrandCard key={index} name={brand.name} logo={brand.logo} url={brand.url} />)}
     </div>
   </div>;
 };
