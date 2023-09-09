@@ -4,6 +4,7 @@ import {useSelector} from 'react-redux'
 import { addProd, deleteProd, updateProd } from './../../redux/action';
 import { listCart } from './../../redux/selector';
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export const Cart = () => {
   let listProd = useSelector(listCart)
@@ -27,7 +28,7 @@ export const Cart = () => {
   return <div>
     {listProd.length ? 
     <div className="container">
-      <h1>Gio hang</h1>
+      <h1>Giỏ Hàng</h1>
       <div className="wrapper">
         {listProd && listProd.map((prod, index) => <div key={index} className="item">
           <img src={prod.logo} alt="" />
@@ -36,8 +37,9 @@ export const Cart = () => {
           <p><button onClick={() => {delCartHandle(prod.id)}}>Xóa</button></p>
         </div>)}
       </div>
+      <Link to="/checkout">Tới trang thanh toán</Link>
     </div> 
-    : <div className="notification">Gio hang trong</div>
+    : <div className="notification">Giỏ hàng trống</div>
     }   
   </div>;
 };

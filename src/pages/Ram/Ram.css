@@ -12,6 +12,6 @@
     grid-template-columns: repeat(4, 1fr);
     justify-content: space-between;
     margin: 35px;
-    gap: 10px;
+    gap: 20px;
 }
 

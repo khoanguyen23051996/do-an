@@ -3,5 +3,19 @@
 }
 
 .product-card img {
-    width: 300px;
+    width: 250px;
+    border-radius: 10%; 
 }
+
+.product-card img:hover {
+    transform: scale(1.2);
+}
+
+.price {
+    color: red;
+}
+
+p {
+    font-size: 15px;
+}
+

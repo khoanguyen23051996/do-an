@@ -1,6 +1,6 @@
 import { ramBrands } from "../../shared/utils/constant";
 import "./ProductDetail.css";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import { useDispatch } from 'react-redux'
 import {useSelector} from 'react-redux'
 import { addProd, deleteProd, updateProd } from './../../redux/action';
@@ -14,6 +14,7 @@ export const ProductDetail = () => {
   let product = brand?.products ? brand.products.find(item => item.url === params.product) : undefined
   const dispatch = useDispatch()
   const listCartS = useSelector(listCart)
+  const navigation = useNavigate()
 
   const addToCart = () => {
     dispatch(
@@ -21,6 +22,10 @@ export const ProductDetail = () => {
         {...product, quanity: quanity}
       )
     )
+
+    setTimeout(() => {
+      navigation('/cart', { replace: true })
+    }, 500)
   }
 
 
@@ -28,7 +33,10 @@ export const ProductDetail = () => {
     {product ? 
     <div className="container">
       <p>{product.name}</p>
-      <img src={product.logo} alt="" />
+      <div className="product-logo">
+       <img src={product.logo} alt="" />
+      </div>
+      
       <p>{product.description}</p>
       <input type="number" value={quanity} onChange={(event) => {setQuanity(+event.target.value)}} />
       <button onClick={addToCart}>Add to cart</button>
