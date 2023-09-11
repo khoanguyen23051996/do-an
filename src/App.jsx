@@ -5,26 +5,41 @@ import { CPU, Home, Keyboard, Monitor, Mouse, Ram, SSD } from "./pages";
 import { Brand } from "./pages/Brands/Brand";
 import { ProductDetail } from "./pages/ProductDetail/ProductDetail";
 import { Cart } from "./pages/Cart/Cart";
-import { Checkout } from './pages/Checkout/Checkout';
+import { Checkout } from "./pages/Checkout/Checkout";
 
 function App() {
+  //config layout, routes
   return (
     <>
       <Layout>
         <Routes>
           <Route path="/" element={<Navigate to="/home" />} />
           <Route path="/home" element={<Home />} />
-          <Route path="/ram" element={<div><Outlet /></div>}>
-            <Route path="" element={<Ram />}/>
+          <Route
+            path="/ram"
+            element={
+              <div>
+                <Outlet />
+              </div>
+            }
+          >
+            <Route path="" element={<Ram />} />
             <Route path=":brand" element={<Outlet />}>
-              <Route path="" element={<Brand />}/>
+              <Route path="" element={<Brand />} />
               <Route path=":product" element={<ProductDetail />}></Route>
             </Route>
           </Route>
-          <Route path="/cpu" element={<div><Outlet /></div>}>
-            <Route path="" element={<CPU />}/>
+          <Route
+            path="/cpu"
+            element={
+              <div>
+                <Outlet />
+              </div>
+            }
+          >
+            <Route path="" element={<CPU />} />
             <Route path=":brand" element={<Outlet />}>
-              <Route path="" element={<Brand />}/>
+              <Route path="" element={<Brand />} />
               <Route path=":product" element={<ProductDetail />}></Route>
             </Route>
           </Route>
