@@ -95,7 +95,7 @@ export const navItems = [
   {
     label: "Giỏ hàng",
     path: "/cart",
-  }
+  },
 ];
 
 export const socialItems = [
@@ -118,21 +118,22 @@ export const slideItems = [GeminiSlide_1, GeminiSlide_2, GeminiSlide_3];
 // RAM
 export const ramBrands = [
   {
-    logo: 'https://images.samsung.com/is/image/samsung/assets/global/about-us/brand/logo/mo/256_144_1.png?$512_N_PNG$',
+    logo: "https://images.samsung.com/is/image/samsung/assets/global/about-us/brand/logo/mo/256_144_1.png?$512_N_PNG$",
     name: "Samsung",
     url: "samsung",
     products: [
       {
         id: 1,
-        logo: 'https://xgear.net/wp-content/uploads/2022/12/Ram_Laptop_OEM.jpeg',
+        logo: "https://xgear.net/wp-content/uploads/2022/12/Ram_Laptop_OEM.jpeg",
         name: "RAM Laptop Samsung 8GB DDR5 4800MT/S",
         url: "samsung-8gb",
         price: 500000,
-        description: "Ram Laptop Samsung 8GB DDR5 Bus 4800Mhz (M425R1GB4BB0-CQKOD)"
+        description:
+          "Ram Laptop Samsung 8GB DDR5 Bus 4800Mhz (M425R1GB4BB0-CQKOD)",
       },
       {
         id: 2,
-        logo: 'https://laptop88.vn/media/product/5321_ram_laptop_kingston_8gb_ddr4_3200mhz_1.jpg',
+        logo: "https://laptop88.vn/media/product/5321_ram_laptop_kingston_8gb_ddr4_3200mhz_1.jpg",
         name: "RAM Laptop DDR4 Samsung 8GB Bus 3200 SODIMM",
         url: "samsung-8gb-2",
         description: "RAM Laptop DDR4 Samsung 8GB Bus 3200 SODIMM",
@@ -140,7 +141,7 @@ export const ramBrands = [
       },
       {
         id: 3,
-        logo: 'https://m.media-amazon.com/images/I/71AEIk7kzIL.jpg',
+        logo: "https://m.media-amazon.com/images/I/71AEIk7kzIL.jpg",
         name: "Samsung DDR5 4800MHz 8GB 16GB SODIMM PC5-38400 CL40",
         url: "samsung-16gb",
         description: "lorem 20",
@@ -148,33 +149,36 @@ export const ramBrands = [
       },
       {
         id: 4,
-        logo: 'https://ae01.alicdn.com/kf/S8a65d99fb37242e599af9b4127b7fd3cK.png_640x640.png_.webp',
+        logo: "https://ae01.alicdn.com/kf/S8a65d99fb37242e599af9b4127b7fd3cK.png_640x640.png_.webp",
         name: "Samsung 16GB (1x16GB) DDR5 4800MHz PC5-38400 ",
         url: "samsung-16gb",
         description: "lorem 20",
+        price: 300000,
+      },
         price: 700000,
       }, 
       {
         id: 5,
-        logo: 'https://ae01.alicdn.com/kf/S8a65d99fb37242e599af9b4127b7fd3cK.png_640x640.png_.webp',
+        logo: "https://ae01.alicdn.com/kf/S8a65d99fb37242e599af9b4127b7fd3cK.png_640x640.png_.webp",
         name: "RAM DDR5 Laptop Samsung 16GB Bus 4800Mhz",
         url: "samsung-16gb",
         description: "lorem 20",
         price: 300000,
-      }, 
-    ]
+      },
+    ],
   },
   {
     id: 5,
-    logo: 'https://png.pngitem.com/pimgs/s/26-260215_logo-kingston-hd-png-download.png',
+    logo: "https://png.pngitem.com/pimgs/s/26-260215_logo-kingston-hd-png-download.png",
     name: "Kingston",
     url: "kingston",
     products: [
       {
         id: 6,
-        logo: 'https://bizweb.dktcdn.net/100/329/122/products/ram-laptop-kingston-ddr4-8gb-bus-3200mhz-kvr32s22s8-8.png?v=1638290363713',
+        logo: "https://bizweb.dktcdn.net/100/329/122/products/ram-laptop-kingston-ddr4-8gb-bus-3200mhz-kvr32s22s8-8.png?v=1638290363713",
         name: "Ram Laptop Kingston DDR4 8GB 3200MHz 1.2v KVR32S22S8/8",
         url: "kingsion-8gb",
+        price: 300000,,
         description: "Ram Laptop Kingston DDR4 8GB 3200MHz 1.2v KVR32S22S8/8",
         price: 500000,
       },
@@ -202,28 +206,28 @@ export const ramBrands = [
         description: "RAM PC Kingston Fury Beast 16GB DDR4 3200 Mhz (KF432C16BB/16)",
         price: 850000,
       },
-    ]
-  }
-]
+    ],
+  },
+];
 
 //CPU
 export const cpuBrands = [
   {
     id: 10,
-    logo: 'https://e7.pngegg.com/pngimages/162/839/png-clipart-intel-developer-forum-logo-intel-blue-text-thumbnail.png',
+    logo: "https://e7.pngegg.com/pngimages/162/839/png-clipart-intel-developer-forum-logo-intel-blue-text-thumbnail.png",
     name: "Intel",
     url: "intel",
     products: [
       {
         id: 11,
-        logo: '//product.hstatic.net/200000420363/product/_2023_-khung-sp-_1__00fa397c03804e91941afcfd4ad77357_master.jpg',
+        logo: "//product.hstatic.net/200000420363/product/_2023_-khung-sp-_1__00fa397c03804e91941afcfd4ad77357_master.jpg",
         name: "CPU Intel Core I5 12400 | LGA1700, Turbo 4.40 GHz, 6C/12T, 18MB, Box Công Ty",
         url: "intel-i5",
         description: "Bộ xử lý: I5 12400 – Alder Lake, Bộ nhớ đệm: 18 MB Cache (Total L2 Cache: 7.5 MB), Tần số cơ sở của bộ xử lý: 2.50 GHz, Tần số turbo tối đa: 4.40 GHz"
       },
       {
         id: 12,
-        logo: 'https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/c/p/cpu-intel-core-i5-12400.jpg',
+        logo: "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/c/p/cpu-intel-core-i5-12400.jpg",
         name: " CPU Intel Core i5 12400 ",
         url: "intel-i5",
         description: "Intel Core i5 12400 là phiên bản vượt trội về mặt hiệu suất và mang lại năng lượng tuyệt vời. Phiên bản Intel Alder Lake là một sự lựa chọn không thể thiếu đối với các game thủ. Hiện, bộ vi xử lý Intel Core i5 12400 đang được bán tại cửa hàng CellphoneS trên toàn quốc và sẵn sàng lắp đặt phục vụ cho bạn."
@@ -246,15 +250,15 @@ export const cpuBrands = [
   },
   {
     id: 14,
-    logo: 'https://w7.pngwing.com/pngs/503/644/png-transparent-advanced-micro-devices-logo-graphics-cards-video-adapters-central-processing-unit-amd-turion-computer-angle-text-trademark-thumbnail.png',
+    logo: "https://w7.pngwing.com/pngs/503/644/png-transparent-advanced-micro-devices-logo-graphics-cards-video-adapters-central-processing-unit-amd-turion-computer-angle-text-trademark-thumbnail.png",
     name: "AMD",
     url: "amd",
     products: [
       {
         id: 15,
-        logo: '//product.hstatic.net/200000420363/product/cpu-amd-ryzen-7-5800x_0ddca567ed0f410c92e463c92d28d23e_master.jpg',
+        logo: "//product.hstatic.net/200000420363/product/cpu-amd-ryzen-7-5800x_0ddca567ed0f410c92e463c92d28d23e_master.jpg",
         name: "CPU AMD Ryzen 7 5800X | AM4, Upto 4.70 GHz, 8C/16T, 32MB, Box Chính Hãng",
-        url: "amd",
+        url: "amd",,
         description: "Socket: AM4 , AMD Ryzen 5000 Series, Tốc độ xử lý: 3.80GHz – 4.70GHz ( 8 nhân, 16 luồng), Bộ nhớ đệm: 32MB",
         price: 6300000,
       },
@@ -276,39 +280,39 @@ export const cpuBrands = [
       },
       {
         id: 18,
-        logo: '//product.hstatic.net/200000420363/product/cpu-amd-ryzen-9-7900x_e43118939ea74b7a9ae77188830e2b2a_master.jpg',
+        logo: "//product.hstatic.net/200000420363/product/cpu-amd-ryzen-9-7900x_e43118939ea74b7a9ae77188830e2b2a_master.jpg",
         name: " CPU AMD Ryzen 9 7900X | AM5, Upto 5.60 GHz, 12C/24T, 64MB, Box Chính Hãng",
         url: "amd",
         description: " AMD Ryzen 9 7900X , Tốc độ: 4.7 GHZ, Socket: AM5",
-        price: 12000000,
+        price: 12000000,,
       },
-    ]
-  }
-]
+    ],
+  },
+];
 
 //SSD
 export const ssdBrands = [
   {
     id: 19,
-    logo: 'https://images.samsung.com/is/image/samsung/assets/global/about-us/brand/logo/mo/256_144_1.png?$512_N_PNG$',
+    logo: "https://images.samsung.com/is/image/samsung/assets/global/about-us/brand/logo/mo/256_144_1.png?$512_N_PNG$",
     name: "Samsung",
     url: "samsung",
     products: [
       {
         id: 20,
-        logo: '//bizweb.dktcdn.net/thumb/grande/100/329/122/products/mz-v8v500-01.jpg?v=1683475237270',
+        logo: "//bizweb.dktcdn.net/thumb/grande/100/329/122/products/mz-v8v500-01.jpg?v=1683475237270",
         name: "SSD Samsung 980 500GB PCIe NVMe V-NAND M.2 2280 MZ-V8V500BW",
         url: "samsung-500gb",
         description: "Chuẩn SSD: M.2 NVMe Gen3 x4, Tốc độ đọc: 3100 MB/s, Tốc độ ghi: 2600 MB/s",
-        price: 850000,
+        price: 850000,,
       },
       {
         id: 21,
-        logo: '//bizweb.dktcdn.net/thumb/grande/100/329/122/products/pm9a1-512gb-01-1698e25e-b684-4ce5-926e-01162c35618d.jpg?v=1686364948653',
+        logo: "//bizweb.dktcdn.net/thumb/grande/100/329/122/products/pm9a1-512gb-01-1698e25e-b684-4ce5-926e-01162c35618d.jpg?v=1686364948653",
         name: "SSD Samsung NVMe PM9A1 512GB M.2 PCIe Gen4 x4 MZ-VL25120",
         url: "samsung-500gb",
         description: "Chuẩn SSD: M.2 NVMe Gen4 x4 (OEM Box vĩ nhựa), Tốc độ đọc: 6900 MB/s, Tốc độ ghi: 5000 MB/s",
-        price: 1000000,
+        price: 1000000,,
       },
       {
         id: 22,
@@ -320,28 +324,28 @@ export const ssdBrands = [
       },
       {
         id: 23,
-        logo: '//bizweb.dktcdn.net/thumb/grande/100/329/122/products/970-evo-plus-1tb-01-1689929004911.jpg?v=1694361771657',
+        logo: "//bizweb.dktcdn.net/thumb/grande/100/329/122/products/970-evo-plus-1tb-01-1689929004911.jpg?v=1694361771657",
         name: "SSD Samsung 970 EVO Plus 1TB PCIe NVMe V-NAND M.2 2280 MZ-V7S1T0BW",
         url: "samsung-1tb",
         description: "Chuẩn SSD: M.2 NVMe Gen3 x4, Tốc độ đọc: 3500 MB/s, Tốc độ ghi: 3300 MB/s",
-        price: 1400000,
-      }, 
-    ]
+        price: 1400000,,
+      },
+    ],
   },
   {
     id: 24,
-    logo: 'https://png.pngitem.com/pimgs/s/26-260215_logo-kingston-hd-png-download.png',
+    logo: "https://png.pngitem.com/pimgs/s/26-260215_logo-kingston-hd-png-download.png",
     name: "Kingston",
     url: "kingston",
     products: [
       {
         id: 25,
-        logo: '/media/product/18853_ssd_kingston_nv2_500gb_pcie_4_0_x4_nvme_m_2__snv2s_500g_.jpg',
+        logo: "/media/product/18853_ssd_kingston_nv2_500gb_pcie_4_0_x4_nvme_m_2__snv2s_500g_.jpg",
         name: "Ổ cứng SSD Kingston NV2 500GB PCIe 4.0 x4 NVMe M.2 (SNV2S/500G)",
         url: "kingston-500gb",
         description: "Chuẩn SSD: M.2 NVMe Gen3 x4, Tốc độ đọc: 3500 MB/s, Tốc độ ghi: 3300 MB/s",
         price: 690000,
-
+,
       },
       {
         id: 26,
@@ -367,15 +371,15 @@ export const ssdBrands = [
         description: "Kích thước: M.2 2280, Giao diện: PCIe 4.0 x4 NVMe, Dung lượng: 1TB, Tốc độ Đọc: 3,500MB/s; Ghi: 2,100MB/s",
         price: 1300000,
       },
-    ]
-  }
-]
+    ],
+  },
+];
 
 //Man hinh
 export const monitorBrands = [
   {
     id: 29,
-    logo: 'https://images.samsung.com/is/image/samsung/assets/global/about-us/brand/logo/mo/256_144_1.png?$512_N_PNG$',
+    logo: "https://images.samsung.com/is/image/samsung/assets/global/about-us/brand/logo/mo/256_144_1.png?$512_N_PNG$",
     name: "Samsung",
     url: "samsung",
     products: [
@@ -414,7 +418,7 @@ export const monitorBrands = [
     ]
   },
   {
-    logo: 'https://w7.pngwing.com/pngs/803/477/png-transparent-msi-logo-thumbnail.png',
+    logo: "https://w7.pngwing.com/pngs/803/477/png-transparent-msi-logo-thumbnail.png",
     name: "MSI",
     url: "msi",
     products: [
@@ -446,14 +450,14 @@ export const monitorBrands = [
         description: "Kích thước: 27inch (1920 x 1080), Tỷ lệ 16:9, Tần số quét: 250Hz",
         price: 4800000,
       },
-    ]
-  }
-]
+    ],
+  },
+];
 
 //Chuot
 export const mouseBrands = [
   {
-    logo: 'https://ih0.redbubble.net/image.2999519614.5897/raf,360x360,075,t,fafafa:ca443f4786.jpg',
+    logo: "https://ih0.redbubble.net/image.2999519614.5897/raf,360x360,075,t,fafafa:ca443f4786.jpg",
     name: "Logitech",
     url: "logitech",
     products: [
@@ -516,7 +520,7 @@ export const mouseBrands = [
     ]
   },
   {
-    logo: 'https://upload.wikimedia.org/wikipedia/vi/a/a1/Razer_snake_logo.png',
+    logo: "https://upload.wikimedia.org/wikipedia/vi/a/a1/Razer_snake_logo.png",
     name: "Razer",
     url: "razer",
     products: [
@@ -577,14 +581,14 @@ export const mouseBrands = [
         description: "Cảm biến quang 16.000 DPI thật, Lên đến 450 IPS / tăng tốc 50 g",
         price: 1500000,
       },
-    ]
-  }
-]
+    ],
+  },
+];
 
 //Ban phim
 export const keyboardBrands = [
   {
-    logo: 'https://seeklogo.com/images/C/corsair-logo-6A2722AAB9-seeklogo.com.png',
+    logo: "https://seeklogo.com/images/C/corsair-logo-6A2722AAB9-seeklogo.com.png",
     name: "Corsair",
     url: "corsair",
     products: [
@@ -618,7 +622,7 @@ export const keyboardBrands = [
       }, 
 
       {
-        logo: 'https://media.kingston.com/kingston/product/ktc-product-memory-beast-ddr4-se-productcard-tn.png',
+        logo: "https://media.kingston.com/kingston/product/ktc-product-memory-beast-ddr4-se-productcard-tn.png",
         name: "Corsair",
         url: "corsair-khongday",
         description: "Không dây qua bluetooth  v4.2 hoặc usb receiver 2.4Ghz 1ms, 87 phím, Sạc pin:	Qua cổng usb vào máy tính",
@@ -648,7 +652,7 @@ export const keyboardBrands = [
     ]
   },
   {
-    logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThOsz3FNcVDTBtmS725RtzMENKg-kO8vG8-P4DsEI&s',
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThOsz3FNcVDTBtmS725RtzMENKg-kO8vG8-P4DsEI&s",
     name: "Akko",
     url: "akko",
     products: [
@@ -680,6 +684,6 @@ export const keyboardBrands = [
         description: "Keyswitch: Akko CS Wine Red/ Wine White, Kết nối: USB",
         price: 1900000,
       },
-    ]
-  }
-]
+    ],
+  },
+];

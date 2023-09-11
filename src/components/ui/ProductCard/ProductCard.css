@@ -1,22 +1,30 @@
-.product-samsung {
-    text-align: center;
+.product-name {
+  text-align: center;
+}
+
+.product-card {
+  text-align: center;
 }
 
 .product-card img {
-    width: 250px;
-    border-radius: 10%; 
+  width: 250px;
+  border-radius: 10%;
 }
 
 .product-card img:hover {
-    transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.product-card a {
+  text-decoration: none;
 }
 
 .price {
-    color: red;
+  color: red;
 }
 
 p {
-    font-size: 15px;
+  font-size: 15px;
 }
 
 
