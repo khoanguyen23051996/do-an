@@ -6,7 +6,7 @@ export const ProductCard = ({ logo,url,name  }) => {
     <Link to={url}>
       <img className= "product-cards" src={logo} alt="" />
       <p className="product-samsung">{name}</p>
-      <p className="price">500.000₫</p>
+      <p className="price">700.000₫</p>
       </Link>
   </div>;
 };

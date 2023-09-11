@@ -1,4 +1,5 @@
 import { ramBrands } from "../../shared/utils/constant";
+import { cpuBrands } from "../../shared/utils/constant";
 import "./ProductDetail.css";
 import { useNavigate, useParams } from "react-router-dom";
 import { useDispatch } from 'react-redux'
