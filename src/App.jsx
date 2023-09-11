@@ -1,3 +1,4 @@
+//import libs
 import { Route, Routes, Navigate, Outlet } from "react-router-dom";
 import "./App.css";
 import { Layout } from "./components";
@@ -9,6 +10,7 @@ import { Checkout } from './pages/Checkout/Checkout';
 
 function App() {
   return (
+    //config layout, routes
     <>
       <Layout>
         <Routes>
@@ -28,7 +30,6 @@ function App() {
               <Route path=":product" element={<ProductDetail />}></Route>
             </Route>
           </Route>
-          <Route path="/cpu" element={<CPU />} />
           <Route path="/ssd" element={<SSD />} />
           <Route path="/monitor" element={<Monitor />} />
           <Route path="/mouse" element={<Mouse />} />

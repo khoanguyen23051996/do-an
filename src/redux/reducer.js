@@ -2,6 +2,7 @@ const initState = {
     prods: [],
 }
 
+//xử lí reducer
 const rootReducer = (state = initState, action) => {
     switch(action.type) {
         case 'prod/add':

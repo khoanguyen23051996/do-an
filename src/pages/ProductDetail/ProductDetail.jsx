@@ -33,14 +33,17 @@ export const ProductDetail = () => {
   return <div>
     {product ? 
     <div className="container">
-      <p>{product.name}</p>
       <div className="product-logo">
-       <img src={product.logo} alt="" />
+      <p>{product.name}</p>
+        <img src={product.logo} alt="" />
       </div>
-      
-      <p>{product.description}</p>
-      <input type="number" value={quanity} onChange={(event) => {setQuanity(+event.target.value)}} />
-      <button onClick={addToCart}>Add to cart</button>
+      <div className="product-info">
+        <p>{product.description}</p>
+        <form className="detail-product-form">
+          <input className= "input"type="number" value={quanity} onChange={(event) => {setQuanity(+event.target.value)}} />
+          <button className= "add-cart" onClick={addToCart}>Add to cart</button>
+        </form>
+      </div>
     </div> 
     :<div className="notification">Không tìm thấy nhãn hàng</div>
     }   

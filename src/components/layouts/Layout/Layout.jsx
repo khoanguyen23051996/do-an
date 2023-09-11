@@ -5,6 +5,7 @@ import "./Layout.css";
 export const Layout = ({ children }) => {
   return (
     <>
+    {/* layout: header & main content */}
       <Header />
       <main>{children}</main>
     </>

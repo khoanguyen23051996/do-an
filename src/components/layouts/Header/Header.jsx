@@ -4,6 +4,8 @@ import { NavLink } from "react-router-dom";
 import { navItems, socialItems } from "../../../shared/utils/constant";
 import "./Header.css";
 
+
+//Header: logo, nav, search input, social 
 export const Header = () => {
   return (
     <header>
