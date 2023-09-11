@@ -21,6 +21,8 @@ export const navItems = [
       {
         label: "Kingston",
         path: "/ram/kingston",
+        label: "Kingston",
+        path: "/ram/kingston",
       },
     ],
   },
@@ -179,6 +181,7 @@ export const ramBrands = [
         name: "Ram Laptop Kingston DDR4 8GB 3200MHz 1.2v KVR32S22S8/8",
         url: "kingsion-8gb",
         price: 300000,
+        price: 300000,
         description: "Ram Laptop Kingston DDR4 8GB 3200MHz 1.2v KVR32S22S8/8",
       },
       {
@@ -204,6 +207,8 @@ export const ramBrands = [
         url: "kingsion-16gb",
         description:
           "RAM PC Kingston Fury Beast 16GB DDR4 3200 Mhz (KF432C16BB/16)",
+        description:
+          "RAM PC Kingston Fury Beast 16GB DDR4 3200 Mhz (KF432C16BB/16)",
         price: 850000,
       },
     ],
@@ -225,6 +230,8 @@ export const cpuBrands = [
         url: "intel-i5",
         description:
           "Bộ xử lý: I5 12400 – Alder Lake, Bộ nhớ đệm: 18 MB Cache (Total L2 Cache: 7.5 MB), Tần số cơ sở của bộ xử lý: 2.50 GHz, Tần số turbo tối đa: 4.40 GHz",
+        description:
+          "Bộ xử lý: I5 12400 – Alder Lake, Bộ nhớ đệm: 18 MB Cache (Total L2 Cache: 7.5 MB), Tần số cơ sở của bộ xử lý: 2.50 GHz, Tần số turbo tối đa: 4.40 GHz",
       },
       {
         id: 13,
@@ -233,12 +240,16 @@ export const cpuBrands = [
         url: "intel-i5",
         description:
           "Intel Core i5 12400 là phiên bản vượt trội về mặt hiệu suất và mang lại năng lượng tuyệt vời. Phiên bản Intel Alder Lake là một sự lựa chọn không thể thiếu đối với các game thủ. Hiện, bộ vi xử lý Intel Core i5 12400 đang được bán tại cửa hàng CellphoneS trên toàn quốc và sẵn sàng lắp đặt phục vụ cho bạn.",
+        description:
+          "Intel Core i5 12400 là phiên bản vượt trội về mặt hiệu suất và mang lại năng lượng tuyệt vời. Phiên bản Intel Alder Lake là một sự lựa chọn không thể thiếu đối với các game thủ. Hiện, bộ vi xử lý Intel Core i5 12400 đang được bán tại cửa hàng CellphoneS trên toàn quốc và sẵn sàng lắp đặt phục vụ cho bạn.",
       },
       {
         id: 14,
         logo: "https://assets.dew.vn/bedf6685-20a3-41b8-9107-4fb78242a81b/derived/p_xl/i7-10700.webp",
         name: "CPU Intel Core i7-10700 / 8 cores / 16 threads / 2.9 - 4.8 GHz",
         url: "intel-i7",
+        description:
+          "CPU Intel Core i7-10700 / 8 cores / 16 threads / 2.9 - 4.8 GHz",
         description:
           "CPU Intel Core i7-10700 / 8 cores / 16 threads / 2.9 - 4.8 GHz",
       },
@@ -265,6 +276,9 @@ export const cpuBrands = [
         url: "amd",
         description:
           "Socket: AM4 , AMD Ryzen 5000 Series, Tốc độ xử lý: 3.80GHz – 4.70GHz ( 8 nhân, 16 luồng), Bộ nhớ đệm: 32MB",
+        url: "amd",
+        description:
+          "Socket: AM4 , AMD Ryzen 5000 Series, Tốc độ xử lý: 3.80GHz – 4.70GHz ( 8 nhân, 16 luồng), Bộ nhớ đệm: 32MB",
         price: 6300000,
       },
       {
@@ -272,6 +286,8 @@ export const cpuBrands = [
         logo: "//product.hstatic.net/200000420363/product/cpu-amd-ryzen-7-7800x3d-chinh-hang_0a5c928de63f4a42a90e0f89e8f0a440_master.png",
         name: "CPU AMD Ryzen 7 7800X3D | AM5, Upto 5.00 GHz, 8C/16T, 96MB, Box Chính Hãng",
         url: "amd",
+        description:
+          "Tên sản phẩm: CPU AMD Ryzen 7 7800X3D, CPU AMD Ryzen 7000 X3D Series mới, Số nhân: 8 nhân",
         description:
           "Tên sản phẩm: CPU AMD Ryzen 7 7800X3D, CPU AMD Ryzen 7000 X3D Series mới, Số nhân: 8 nhân",
         price: 11700000,
@@ -283,6 +299,8 @@ export const cpuBrands = [
         url: "amd",
         description:
           "Thế hệ: AMD Ryzen 7000 series Số nhân - Luồng: 12 Cores / 24 Threads Xung nhịp: 4.7 GHz up to 5.6 GHz",
+        description:
+          "Thế hệ: AMD Ryzen 7000 series Số nhân - Luồng: 12 Cores / 24 Threads Xung nhịp: 4.7 GHz up to 5.6 GHz",
         price: 9000000,
       },
       {
@@ -291,6 +309,7 @@ export const cpuBrands = [
         name: " CPU AMD Ryzen 9 7900X | AM5, Upto 5.60 GHz, 12C/24T, 64MB, Box Chính Hãng",
         url: "amd",
         description: " AMD Ryzen 9 7900X , Tốc độ: 4.7 GHZ, Socket: AM5",
+        price: 12000000,
         price: 12000000,
       },
     ],
@@ -313,12 +332,18 @@ export const ssdBrands = [
         description:
           "Chuẩn SSD: M.2 NVMe Gen3 x4, Tốc độ đọc: 3100 MB/s, Tốc độ ghi: 2600 MB/s",
         price: 850000,
+        description:
+          "Chuẩn SSD: M.2 NVMe Gen3 x4, Tốc độ đọc: 3100 MB/s, Tốc độ ghi: 2600 MB/s",
+        price: 850000,
       },
       {
         id: 23,
         logo: "//bizweb.dktcdn.net/thumb/grande/100/329/122/products/pm9a1-512gb-01-1698e25e-b684-4ce5-926e-01162c35618d.jpg?v=1686364948653",
         name: "SSD Samsung NVMe PM9A1 512GB M.2 PCIe Gen4 x4 MZ-VL25120",
         url: "samsung-500gb",
+        description:
+          "Chuẩn SSD: M.2 NVMe Gen4 x4 (OEM Box vĩ nhựa), Tốc độ đọc: 6900 MB/s, Tốc độ ghi: 5000 MB/s",
+        price: 1000000,
         description:
           "Chuẩn SSD: M.2 NVMe Gen4 x4 (OEM Box vĩ nhựa), Tốc độ đọc: 6900 MB/s, Tốc độ ghi: 5000 MB/s",
         price: 1000000,
@@ -330,6 +355,8 @@ export const ssdBrands = [
         url: "samsung-1tb",
         description:
           "Dung lượng 1TB, Tốc độ đọc ghi: 7450MB/s 6900MB/s, TBW: 600",
+        description:
+          "Dung lượng 1TB, Tốc độ đọc ghi: 7450MB/s 6900MB/s, TBW: 600",
         price: 2000000,
       },
       {
@@ -337,6 +364,9 @@ export const ssdBrands = [
         logo: "//bizweb.dktcdn.net/thumb/grande/100/329/122/products/970-evo-plus-1tb-01-1689929004911.jpg?v=1694361771657",
         name: "SSD Samsung 970 EVO Plus 1TB PCIe NVMe V-NAND M.2 2280 MZ-V7S1T0BW",
         url: "samsung-1tb",
+        description:
+          "Chuẩn SSD: M.2 NVMe Gen3 x4, Tốc độ đọc: 3500 MB/s, Tốc độ ghi: 3300 MB/s",
+        price: 1400000,
         description:
           "Chuẩn SSD: M.2 NVMe Gen3 x4, Tốc độ đọc: 3500 MB/s, Tốc độ ghi: 3300 MB/s",
         price: 1400000,
@@ -356,6 +386,8 @@ export const ssdBrands = [
         url: "kingston-500gb",
         description:
           "Chuẩn SSD: M.2 NVMe Gen3 x4, Tốc độ đọc: 3500 MB/s, Tốc độ ghi: 3300 MB/s",
+        description:
+          "Chuẩn SSD: M.2 NVMe Gen3 x4, Tốc độ đọc: 3500 MB/s, Tốc độ ghi: 3300 MB/s",
         price: 690000,
       },
       {
@@ -373,6 +405,8 @@ export const ssdBrands = [
         url: "kingston-1tb",
         description:
           "Kích thước: M.2 2280, Giao diện: PCIe 4.0 x4 NVMe, Dung lượng: 1TB",
+        description:
+          "Kích thước: M.2 2280, Giao diện: PCIe 4.0 x4 NVMe, Dung lượng: 1TB",
         price: 1200000,
       },
       {
@@ -380,6 +414,8 @@ export const ssdBrands = [
         logo: "//product.hstatic.net/200000420363/product/1_f81ef6b30bb34ffab78b2f493aa43428_master.jpg",
         name: "Ổ Cứng SSD 1TB Kingston NV2 | PCIe Gen4, M.2 NVMe, SNV2S/1000G",
         url: "kingston-1tb",
+        description:
+          "Kích thước: M.2 2280, Giao diện: PCIe 4.0 x4 NVMe, Dung lượng: 1TB, Tốc độ Đọc: 3,500MB/s; Ghi: 2,100MB/s",
         description:
           "Kích thước: M.2 2280, Giao diện: PCIe 4.0 x4 NVMe, Dung lượng: 1TB, Tốc độ Đọc: 3,500MB/s; Ghi: 2,100MB/s",
         price: 1300000,
@@ -403,6 +439,8 @@ export const monitorBrands = [
         url: "samsung-24inch",
         description:
           "Kích thước 23.8 inch, Tỷ lệ khung hình 16:9, Độ sáng 250cd/m2",
+        description:
+          "Kích thước 23.8 inch, Tỷ lệ khung hình 16:9, Độ sáng 250cd/m2",
         price: 2600000,
       },
       {
@@ -412,6 +450,8 @@ export const monitorBrands = [
         url: "samsung-24inch",
         description:
           "Tấm nền IPS, Góc nhìn: 178 (H) / 178 (V), Tần số quét: 75Hz , Thời gian phản hồi 5 ms",
+        description:
+          "Tấm nền IPS, Góc nhìn: 178 (H) / 178 (V), Tần số quét: 75Hz , Thời gian phản hồi 5 ms",
         price: 2700000,
       },
       {
@@ -419,6 +459,8 @@ export const monitorBrands = [
         logo: "https://lh3.googleusercontent.com/BQhFRVJJt-1kRsjvlf4OfQP5aWkL4tjfedbKBtvRCGtckpeTm9SI9cR6rcSW4hvJ5N8dxPwyhNhjObDF8jX5XlzPJoI-fYtA=w500-rw",
         name: "Màn hình LCD SAMSUNG 27inch LS27C360EAEXXV",
         url: "samsung-27inch",
+        description:
+          "Tấm nền VA, Góc nhìn: 178 (H) / 178 (V), Tần số quét: 75Hz , Thời gian phản hồi 4 ms, HIển thị màu sắc: 16.7 triệu màu",
         description:
           "Tấm nền VA, Góc nhìn: 178 (H) / 178 (V), Tần số quét: 75Hz , Thời gian phản hồi 4 ms, HIển thị màu sắc: 16.7 triệu màu",
         price: 3400000,
@@ -446,6 +488,8 @@ export const monitorBrands = [
         url: "msi-24inch",
         description:
           "Kích thước 26.8 inch, Model: MSI Pro MP241X, Độ sáng: 220 cd/m²",
+        description:
+          "Kích thước 26.8 inch, Model: MSI Pro MP241X, Độ sáng: 220 cd/m²",
         price: 2000000,
       },
       {
@@ -453,6 +497,8 @@ export const monitorBrands = [
         logo: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/g/a/gaming_14_2_.png",
         name: "Màn hình MSI PROMP243W 24 inch",
         url: "msi-24inch",
+        description:
+          "Kích thước 24 inch, độ phân giải Full HD mang đến trải nghiệm nhìn rõ nét",
         description:
           "Kích thước 24 inch, độ phân giải Full HD mang đến trải nghiệm nhìn rõ nét",
         price: 2300000,
@@ -464,6 +510,8 @@ export const monitorBrands = [
         url: "msi-27inch",
         description:
           "Kích thước: 27inch (1920 x 1080), Tỷ lệ 16:9, Kích thước: Tần số quét: 75Hz",
+        description:
+          "Kích thước: 27inch (1920 x 1080), Tỷ lệ 16:9, Kích thước: Tần số quét: 75Hz",
         price: 3200000,
       },
       {
@@ -471,6 +519,8 @@ export const monitorBrands = [
         logo: "https://lh3.googleusercontent.com/faiO1kVYn95SzjE-wnWptq-uiOXMXwK_UF6-2h0hrJSxwxljiaHm4rA9MU4e7PejLEQJXyqnC2Icw451v9AHZGvmzd8cDBMv=w500-rw",
         name: "Màn hình LCD MSI 27inch Optix G27C4X",
         url: "msi-27inch",
+        description:
+          "Kích thước: 27inch (1920 x 1080), Tỷ lệ 16:9, Tần số quét: 250Hz",
         description:
           "Kích thước: 27inch (1920 x 1080), Tỷ lệ 16:9, Tần số quét: 250Hz",
         price: 4800000,
@@ -494,6 +544,8 @@ export const mouseBrands = [
         url: "logitech-coday",
         description:
           "Loại sản phẩm: Chuột có dây, Độ phân giải: 25.600 DPI, Tốc độ báo cáo: 1000Hz (1ms)",
+        description:
+          "Loại sản phẩm: Chuột có dây, Độ phân giải: 25.600 DPI, Tốc độ báo cáo: 1000Hz (1ms)",
         price: 820000,
       },
       {
@@ -503,6 +555,8 @@ export const mouseBrands = [
         url: "logitech-coday",
         description:
           "Đèn LED Lightsync RGB có thể tùy chỉnh màu theo tuỳ ý, Độ phân giải lên đến 8000 DPI giúp di chuột mượt mà",
+        description:
+          "Đèn LED Lightsync RGB có thể tùy chỉnh màu theo tuỳ ý, Độ phân giải lên đến 8000 DPI giúp di chuột mượt mà",
         price: 500000,
       },
       {
@@ -510,6 +564,8 @@ export const mouseBrands = [
         logo: "https://lh3.googleusercontent.com/I6bdXxwM3NTqCFC01E5qlEv6reweFdmKi3dyC0NxRLp8kHg07rvctvXLWZcO5cKgQ2EBeOLxi8nrv-K5WbYEpLibbz4r5TYb=w500-rw",
         name: "Chuột gaming Logitech G402 (Đen)",
         url: "logitech-coday",
+        description:
+          "Cảm biến quang AM10 mạnh mẽ nhận diện tốt trên mọi bề mặt, 8 nút tuỳ chỉnh với phần mềm Logitech Gaming Software",
         description:
           "Cảm biến quang AM10 mạnh mẽ nhận diện tốt trên mọi bề mặt, 8 nút tuỳ chỉnh với phần mềm Logitech Gaming Software",
         price: 650000,
@@ -527,6 +583,8 @@ export const mouseBrands = [
         logo: "https://anphat.com.vn/media/product/26235_logitech_g304__1_.png",
         name: "Chuột Logitech G304 LIGHTSPEED Wireless",
         url: "logitech-khongday",
+        description:
+          "Độ phân giải: 12000DPI, Công nghệ không dây tiên tiến nhất Lightspeed",
         description:
           "Độ phân giải: 12000DPI, Công nghệ không dây tiên tiến nhất Lightspeed",
         price: 750000,
@@ -554,6 +612,8 @@ export const mouseBrands = [
         url: "logitech-khongday",
         description:
           "Độ phân giải: 12000 DPI, Chuẩn kết nối: Lightspeed Wireless",
+        description:
+          "Độ phân giải: 12000 DPI, Chuẩn kết nối: Lightspeed Wireless",
         price: 760000,
       },
     ],
@@ -569,6 +629,8 @@ export const mouseBrands = [
         logo: "https://lh3.googleusercontent.com/RTPOeR3mVP6mYl9jr9_CJIZn9c9PR8JUSG3A3c8ryj_anVFw7uEUkbfK2AalvO2nH0nIHSvxx4itBJOaza4wU833zMRJWQTgug=w500-rw",
         name: "Chuột gaming Razer DeathAdder Essential - RZ01-03850100-R3M1",
         url: "razer-coday",
+        description:
+          "Công tắc Cơ học Razer 10 triệu lần nhấp, Cảm Biến Quang Học 6.400 DPI",
         description:
           "Công tắc Cơ học Razer 10 triệu lần nhấp, Cảm Biến Quang Học 6.400 DPI",
         price: 450000,
@@ -588,6 +650,8 @@ export const mouseBrands = [
         url: "razer-coday",
         description:
           "Mắt cảm biến RAZER FOCUS+ 26000 DPI, Nút cuộn 4 chiều với tính năng tăng tốc ảo giúp cuộn nhanh hơn",
+        description:
+          "Mắt cảm biến RAZER FOCUS+ 26000 DPI, Nút cuộn 4 chiều với tính năng tăng tốc ảo giúp cuộn nhanh hơn",
         price: 990000,
       },
       {
@@ -597,14 +661,19 @@ export const mouseBrands = [
         url: "razer-coday",
         description:
           "Chuột Razer Viper 8KHz (RZ01-03580100-R3M1), DPI tối đa 20.000",
+        description:
+          "Chuột Razer Viper 8KHz (RZ01-03580100-R3M1), DPI tối đa 20.000",
         price: 999000,
       },
+
 
       {
         id: 55,
         logo: "https://xgear.net/wp-content/uploads/2023/01/DA-V2-X-1-500x500.jpg",
         name: "Chuột không dây Razer Deathadder V2 X Hyperspeed (RZ01-04130100-R3A1)",
         url: "razer-khongday",
+        description:
+          "Chuột không dây Razer Deathadder V2 X Hyperspeed (RZ01-04130100-R3A1) Chuột không dây Razer Deathadder V2 X Hyperspeed (RZ01-04130100-R3A1) Thiết kế công thái học từng đoạt giải thưởng",
         description:
           "Chuột không dây Razer Deathadder V2 X Hyperspeed (RZ01-04130100-R3A1) Chuột không dây Razer Deathadder V2 X Hyperspeed (RZ01-04130100-R3A1) Thiết kế công thái học từng đoạt giải thưởng",
         price: 1050000,
@@ -616,6 +685,8 @@ export const mouseBrands = [
         url: "razer-khongday",
         description:
           "Kết nối : Wireless / Bluetooth / Cáp usb, Phiên bản wireless của huyền thoại Razer DeathAdder",
+        description:
+          "Kết nối : Wireless / Bluetooth / Cáp usb, Phiên bản wireless của huyền thoại Razer DeathAdder",
         price: 1700000,
       },
       {
@@ -625,6 +696,8 @@ export const mouseBrands = [
         url: "razer-khongday",
         description:
           "2 kết nối không dây: 2.4 Ghz và Bluetooth, Cảm biến quang học với DPI lên tới 18.000",
+        description:
+          "2 kết nối không dây: 2.4 Ghz và Bluetooth, Cảm biến quang học với DPI lên tới 18.000",
         price: 989000,
       },
       {
@@ -632,6 +705,8 @@ export const mouseBrands = [
         logo: "//product.hstatic.net/1000333506/product/1573523114_71mnhvuvuvl._sl1500__470be7bad22a45ae8803d5d5925749ac_grande.jpg",
         name: "Razer Deathadder Elite Skt T1 Edition Ergonomic Gaming",
         url: "razer-khongday",
+        description:
+          "Cảm biến quang 16.000 DPI thật, Lên đến 450 IPS / tăng tốc 50 g",
         description:
           "Cảm biến quang 16.000 DPI thật, Lên đến 450 IPS / tăng tốc 50 g",
         price: 1500000,
@@ -663,6 +738,8 @@ export const keyboardBrands = [
         url: "corsair-coday",
         description:
           "Loại sản phẩm: Bàn phím cơ, Keyswitch: CORSAIR OPX, Dạng bàn phím: Fullsize",
+        description:
+          "Loại sản phẩm: Bàn phím cơ, Keyswitch: CORSAIR OPX, Dạng bàn phím: Fullsize",
         price: 3600000,
       },
       {
@@ -681,12 +758,13 @@ export const keyboardBrands = [
         description: "Corsair OPX hoặc Cherry MX Speed, Keycap PBT Doubleshot",
         price: 5200000,
       },
-
       {
         id: 64,
         logo: "https://media.kingston.com/kingston/product/ktc-product-memory-beast-ddr4-se-productcard-tn.png",
         name: "Corsair",
         url: "corsair-khongday",
+        description:
+          "Không dây qua bluetooth  v4.2 hoặc usb receiver 2.4Ghz 1ms, 87 phím, Sạc pin:	Qua cổng usb vào máy tính",
         description:
           "Không dây qua bluetooth  v4.2 hoặc usb receiver 2.4Ghz 1ms, 87 phím, Sạc pin:	Qua cổng usb vào máy tính",
         price: 2600000,
@@ -698,6 +776,8 @@ export const keyboardBrands = [
         url: "corsair-khongday",
         description:
           "Keyswitch: CHERRY® MX RED và SPEEED, Tần số gửi tín hiệu: Lên đến 8000Hz với AXON",
+        description:
+          "Keyswitch: CHERRY® MX RED và SPEEED, Tần số gửi tín hiệu: Lên đến 8000Hz với AXON",
         price: 2290000,
       },
       {
@@ -705,18 +785,20 @@ export const keyboardBrands = [
         logo: 'https://bizweb.dktcdn.net/100/329/122/products/ban-phim-co-khong-day-corsair-k70-pro-mini-rgb-black-8-02060eb3-ce65-4545-9fa9-9ce56572ab00-1690118646852-93f161d7-950c-41ea-b89c-fac994c63bfb.jpg?v=1692600725363',
         name: "Bàn phím cơ không dây Corsair K70 PRO MINI RGB Black MX RED/MX SPEED",
         url: "corsair-khongday",
-        description: "Keyswitch: CHERRY® MX RED và SPEEED, Tần số gửi tín hiệu: Lên đến 8000Hz với AXON",
+        description:
+          "Keyswitch: CHERRY® MX RED và SPEEED, Tần số gửi tín hiệu: Lên đến 8000Hz với AXON",
         price: 2490000,
-      }, 
+      },
       {
         id: 67,
         logo: '/media/product/17264-b--n-ph--m-c---corsair-k95-rgb-platinum-xt.png',
         name: "Bàn Phím Cơ Corsair K95 RGB PLATINUM XT - Blue/ Brown/ Red Cherry Switch",
         url: "corsair-khongday",
-        description: "Keyswitch: CHERRY® MX RED và SPEEED, Tần số gửi tín hiệu: Lên đến 8000Hz với AXON",
-        price: 4500000
-      }, 
-    ]
+        description:
+          "Keyswitch: CHERRY® MX RED và SPEEED, Tần số gửi tín hiệu: Lên đến 8000Hz với AXON",
+        price: 4500000,
+      },
+    ],
   },
   {
     id: 68,
@@ -729,7 +811,8 @@ export const keyboardBrands = [
         logo: 'https://owlgaming.vn/wp-content/uploads/2023/05/ban-phim-co-monsgeek-mg108-black-cyan.jpg',
         name: "Bàn phím cơ MonsGeek MG108 Black & Cyan (White LED / AKKO cs switch)",
         url: "akko-khongday",
-        description: "Kết nối: USB Type-C to Type-A (dây có thể tháo rời), LED nền đơn sắc (TRẮNG)",
+        description:
+          "Kết nối: USB Type-C to Type-A (dây có thể tháo rời), LED nền đơn sắc (TRẮNG)",
         price: 1050000,
       },
       {
@@ -737,7 +820,8 @@ export const keyboardBrands = [
         logo: 'https://lh3.googleusercontent.com/VSREMIBoI8gnDAfOiGmnjc7XM_yfxLkV5a9OFTc6JLGLkEYwPQWCU84TH0-fxPtfsQQPxId8lu4fZ-k2vDKrZ5t1J_KXmC0BPA=w500-rw',
         name: "Bàn phím AKKO 3108 RF Ocean Star",
         url: "akko-khongday",
-        description: "Kết nối: 2.4 GHz Wireless, USB Type-C, Switch: Akko Cream Yellow v3",
+        description:
+          "Kết nối: 2.4 GHz Wireless, USB Type-C, Switch: Akko Cream Yellow v3",
         price: 1490000,
       },
       {
