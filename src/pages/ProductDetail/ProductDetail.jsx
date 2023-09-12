@@ -39,10 +39,10 @@ export const ProductDetail = () => {
       </div>
       <div className="product-info">
         <p>{product.description}</p>
-        <form className="detail-product-form">
+        {/* <form className="detail-product-form"> */}
           <input className= "input"type="number" value={quanity} onChange={(event) => {setQuanity(+event.target.value)}} />
           <button className= "add-cart" onClick={addToCart}>Add to cart</button>
-        </form>
+        {/* </form> */}
       </div>
     </div> 
     :<div className="notification">Không tìm thấy nhãn hàng</div>

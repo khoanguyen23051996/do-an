@@ -35,12 +35,16 @@ export const Checkout = () => {
           <p>Số lượng: {prod.quanity}</p>
           <p>Thành tiền: {prod.price * prod.quanity}</p>
         </div>)}
-      </div>
-      <p>Tổng tiền: {listProd.reduce((pre, curr) => {
+        <p className="tong-tien">Tổng tiền: {listProd.reduce((pre, curr) => {
         return pre + (curr.price * curr.quanity)
       }, 0)}</p>
+      </div>
+      {/* <p>Tổng tiền: {listProd.reduce((pre, curr) => {
+        return pre + (curr.price * curr.quanity)
+      }, 0)}</p> */}
     </div> 
     : <div className="notification">Không có sản phẩm nào vui lòng thêm sản phẩm vào giỏ hàng<a href="/">Về trang chủ</a></div>
     }   
   </div>;
 };
+

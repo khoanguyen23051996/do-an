@@ -36,8 +36,9 @@ export const Cart = () => {
           <input type="number" defaultValue={prod.quanity} onChange={(event) => {updateCartHandle(prod, +event.target.value)}} />
           <p><button onClick={() => {delCartHandle(prod.id)}}>Xóa</button></p>
         </div>)}
+        <Link className="check-out"to="/checkout">Tới trang thanh toán</Link>
       </div>
-      <Link to="/checkout">Tới trang thanh toán</Link>
+      {/* <Link className="check-out"to="/checkout">Tới trang thanh toán</Link> */}
     </div> 
     : <div className="notification">Giỏ hàng trống</div>
     }   

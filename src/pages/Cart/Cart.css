@@ -5,13 +5,13 @@
     margin-top: 200px;
 }
 
-.wrapper {
+/* .wrapper {
     margin-top: 50px;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-content: space-between;
-}
+} */
 
 .notification {
     max-width: 1140px;
@@ -23,3 +23,22 @@
 img {
     align-items: center;
 }
+
+h1 {
+    margin-bottom: 1220px;
+    width: 100px;
+    height: 100px;
+}
+
+.item {
+    margin-top: 100px;
+    margin-left: -130px;
+}
+
+.check-out{
+    margin-top: 1010px;
+    margin-left: -350px;
+}
+
+
+

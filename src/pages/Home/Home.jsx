@@ -6,5 +6,4 @@ export const Home = () => {
   return <div className="home">
       <EmblaCarousel />
     </div>;
-
 };

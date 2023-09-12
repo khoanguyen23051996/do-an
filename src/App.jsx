@@ -11,7 +11,6 @@ import { Checkout } from "./pages/Checkout/Checkout";
 function App() {
   //config layout, routes
   return (
-    //config layout, routes
     <>
       <Layout>
         <Routes>

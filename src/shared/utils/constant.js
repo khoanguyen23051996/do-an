@@ -132,8 +132,7 @@ export const ramBrands = [
         name: "RAM Laptop Samsung 8GB DDR5 4800MT/S",
         url: "samsung-8gb",
         price: 500000,
-        description:
-          "Ram Laptop Samsung 8GB DDR5 Bus 4800Mhz (M425R1GB4BB0-CQKOD)",
+        description:"Ram Laptop Samsung 8GB DDR5 Bus 4800Mhz (M425R1GB4BB0-CQKOD)",
       },
       {
         id: 2,
@@ -265,7 +264,7 @@ export const cpuBrands = [
   },
   {
     id: 16,
-    logo: "https://w7.pngwing.com/pngs/503/644/png-transparent-advanced-micro-devices-logo-graphics-cards-videodapters-central-processing-unit-amd-turion-computer-angle-text-trademark-thumbnail.png",
+    logo: "https://w7.pngwing.com/pngs/318/793/png-transparent-amd-logo-logos-logos-and-brands-icon-thumbnail.png",
     name: "AMD",
     url: "amd",
     products: [
@@ -811,8 +810,7 @@ export const keyboardBrands = [
         logo: 'https://owlgaming.vn/wp-content/uploads/2023/05/ban-phim-co-monsgeek-mg108-black-cyan.jpg',
         name: "Bàn phím cơ MonsGeek MG108 Black & Cyan (White LED / AKKO cs switch)",
         url: "akko-khongday",
-        description:
-          "Kết nối: USB Type-C to Type-A (dây có thể tháo rời), LED nền đơn sắc (TRẮNG)",
+        description:"Kết nối: USB Type-C to Type-A (dây có thể tháo rời), LED nền đơn sắc (TRẮNG)",
         price: 1050000,
       },
       {

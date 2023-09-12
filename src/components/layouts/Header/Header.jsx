@@ -5,7 +5,7 @@ import { navItems, socialItems } from "../../../shared/utils/constant";
 import "./Header.css";
 
 
-//Header: logo, nav, search input, social 
+//Header: logo, nav, search input, sol 
 export const Header = () => {
   return (
     <header>
