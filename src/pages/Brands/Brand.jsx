@@ -1,17 +1,28 @@
+import { useEffect, useState } from "react";
 import { ProductCard } from "../../components/ui/ProductCard/ProductCard";
-import { ramBrands } from "../../shared/utils/constant";
+import { cpuBrands, ramBrands } from "../../shared/utils/constant";
 import "./Brand.css";
 import { useParams } from "react-router-dom";
 
 export const Brand = () => {
   let params = useParams();
-  let brand = ramBrands.find((item) => item.url === params.brand);
+  let brandsArray = [ramBrands, cpuBrands]; // Chỉ cần thêm brand vào
+  const [brand, setBrand] = useState({});
+
+  useEffect(() => {
+    brandsArray.map((brandItem) => {
+      brandItem.find((item) => {
+        if (item.url === params.brand) {
+          setBrand(item);
+        }
+      });
+    });
+  }, [params.brand]);
 
   return (
-    <div>
+    <>
       {brand ? (
         <div className="container">
-          {/* <p>{brand.name}</p> */}
           <div className="logo-brand">
             <img src={brand.logo} alt="" />
           </div>
@@ -31,6 +42,6 @@ export const Brand = () => {
       ) : (
         <div className="notification">Không tìm thấy nhãn hàng</div>
       )}
-    </div>
+    </>
   );
 };

@@ -223,6 +223,7 @@ export const cpuBrands = [
         url: "intel-i5",
         description:
           "Bộ xử lý: I5 12400 – Alder Lake, Bộ nhớ đệm: 18 MB Cache (Total L2 Cache: 7.5 MB), Tần số cơ sở của bộ xử lý: 2.50 GHz, Tần số turbo tối đa: 4.40 GHz",
+        price: 6300000,
       },
       {
         id: 12,
@@ -231,6 +232,7 @@ export const cpuBrands = [
         url: "intel-i5",
         description:
           "Intel Core i5 12400 là phiên bản vượt trội về mặt hiệu suất và mang lại năng lượng tuyệt vời. Phiên bản Intel Alder Lake là một sự lựa chọn không thể thiếu đối với các game thủ. Hiện, bộ vi xử lý Intel Core i5 12400 đang được bán tại cửa hàng CellphoneS trên toàn quốc và sẵn sàng lắp đặt phục vụ cho bạn.",
+        price: 6300000,
       },
       {
         id: 12,
@@ -239,6 +241,7 @@ export const cpuBrands = [
         url: "intel-i7",
         description:
           "CPU Intel Core i7-10700 / 8 cores / 16 threads / 2.9 - 4.8 GHz",
+        price: 6300000,
       },
       {
         id: 13,
@@ -247,6 +250,7 @@ export const cpuBrands = [
         url: "intel-i7",
         description:
           "CPU Intel Core i7-12700K (3.8GHz turbo up to 5.0Ghz, 12 nhân 20 luồng, 25MB  Cache, 125W) - Socket Intel LGA 1700/Alder Lake)",
+        price: 6300000,
       },
     ],
   },
