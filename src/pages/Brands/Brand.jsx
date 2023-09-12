@@ -3,7 +3,7 @@ import { ProductCard } from "../../components/ui/ProductCard/ProductCard";
 import { cpuBrands, ramBrands } from "../../shared/utils/constant";
 import "./Brand.css";
 import { useParams } from "react-router-dom";
-
+// render trang danh sách sản phẩm theo brand
 export const Brand = () => {
   let params = useParams();
   let brandsArray = [ramBrands, cpuBrands]; // Chỉ cần thêm brand vào

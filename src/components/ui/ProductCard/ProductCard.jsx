@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import "./ProductCard.css";
 import PropTypes from "prop-types";
 
+//render thẻ sản phẩm - Link(url, img, p)->DetailProduct
 export const ProductCard = ({ logo, url, name, price }) => {
   return (
     <div className="product-card">
@@ -14,6 +15,7 @@ export const ProductCard = ({ logo, url, name, price }) => {
   );
 };
 
+//khai báo kiểu dữ liệu cho props được truyền vào ProductCard
 ProductCard.propTypes = {
   logo: PropTypes.string,
   url: PropTypes.string,

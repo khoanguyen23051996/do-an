@@ -1,4 +1,40 @@
-.product.logo {
-    width: 200px;
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
 }
 
+.product-logo p {
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+.product-logo img {
+    width: 500px;
+}
+
+.product-info p {
+    text-align: left;
+    font-size: 1.5rem;
+    margin-block: .3em;
+}
+
+form.detail-product-form .input {
+    width: 50px;
+    margin-bottom: 1em;
+    padding: 8px;
+    border: unset;
+    border-radius: 8px;
+}
+
+form.detail-product-form .add-cart {
+    background-color: red;
+    color: antiquewhite;
+    border: unset;
+    border-radius: 10px;
+    font-size: 50px;
+    display: flex;
+    padding: 10px 15px;
+}

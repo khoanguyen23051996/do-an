@@ -1,3 +1,5 @@
+// Trang khai báo method để xử reducer: add, update, del
+
 export const addProd = (data) => {
     return {
         type: 'prod/add',

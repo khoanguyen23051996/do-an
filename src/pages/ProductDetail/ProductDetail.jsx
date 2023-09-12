@@ -1,12 +1,10 @@
-import { ramBrands } from "../../shared/utils/constant";
-import { cpuBrands } from "../../shared/utils/constant";
-import "./ProductDetail.css";
-import { useNavigate, useParams } from "react-router-dom";
-import { useDispatch } from "react-redux";
-import { useSelector } from "react-redux";
-import { addProd, deleteProd, updateProd } from "./../../redux/action";
-import { listCart } from "./../../redux/selector";
 import { useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { useNavigate, useParams } from "react-router-dom";
+import { ramBrands } from "../../shared/utils/constant";
+import { addProd } from "./../../redux/action";
+import { listCart } from "./../../redux/selector";
+import "./ProductDetail.css";
 
 export const ProductDetail = () => {
   let params = useParams();
@@ -31,20 +29,26 @@ export const ProductDetail = () => {
     <div>
       {product ? (
         <div className="container">
-          <p>{product.name}</p>
           <div className="product-logo">
+            <p>{product.name}</p>
             <img src={product.logo} alt="" />
           </div>
-
-          <p>{product.description}</p>
-          <input
-            type="number"
-            value={quantity}
-            onChange={(event) => {
-              setQuantity(+event.target.value);
-            }}
-          />
-          <button onClick={addToCart}>Add to cart</button>
+          <div className="product-info">
+            <p>{product.description}</p>
+            <form className="detail-product-form">
+              <input
+                className="input"
+                type="number"
+                value={quantity}
+                onChange={(event) => {
+                  setQuantity(+event.target.value);
+                }}
+              />
+              <button className="add-cart" onClick={addToCart}>
+                Add to cart
+              </button>
+            </form>
+          </div>
         </div>
       ) : (
         <div className="notification">Không tìm thấy nhãn hàng</div>

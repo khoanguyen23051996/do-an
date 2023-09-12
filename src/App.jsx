@@ -1,3 +1,4 @@
+//import libs
 import { Route, Routes, Navigate, Outlet } from "react-router-dom";
 import "./App.css";
 import { Layout } from "./components";
@@ -10,6 +11,7 @@ import { Checkout } from "./pages/Checkout/Checkout";
 function App() {
   //config layout, routes
   return (
+    //config layout, routes
     <>
       <Layout>
         <Routes>

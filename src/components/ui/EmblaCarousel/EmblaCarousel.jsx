@@ -3,6 +3,7 @@ import Autoplay from "embla-carousel-autoplay";
 import { slideItems } from "../../../shared/utils/constant";
 import "./EmblaCarousel.css";
 
+//Emblacarousel - img slider
 export const EmblaCarousel = () => {
   const [emblaRef] = useEmblaCarousel(
     { loop: true, align: "center", slidesToScroll: 1 },
