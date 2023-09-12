@@ -8,6 +8,7 @@ p {
     width: 500px;
     height: 300px;   
     border-radius: 35px;
+    margin-left: 40px;
 }
 
 .brand-card img :hover {

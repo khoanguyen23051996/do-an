@@ -11,7 +11,6 @@ export const Brand = () => {
     <>
       {brand ? (
         <div className="brand-container">
-          {/* <p>{brand.name}</p> */}
           <div className="logo-brand">
             <img src={brand.logo} alt="" />
           </div>

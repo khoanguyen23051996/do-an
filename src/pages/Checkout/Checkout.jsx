@@ -1,9 +1,6 @@
 import "./Checkout.css";
-import { useDispatch } from 'react-redux'
 import {useSelector} from 'react-redux'
-import { addProd, deleteProd, updateProd } from '../../redux/action';
 import { listCart } from '../../redux/selector';
-import { useState } from "react";
 
 export const Checkout = () => {
   let listProd = useSelector(listCart)
@@ -14,34 +11,35 @@ export const Checkout = () => {
       <h1>Thanh toán</h1>
 
       <div>
-        <label for="name">Tên người mua</label>
-        <input type="text" id="name" />
+        <label for="name">Tên người mua:  </label>
+        <input className="infomation-"type="text" id="name" />
       </div>
       <div>
-        <label for="phone">Số điện thoại</label>
-        <input type="tel" id="phone" />
+        <label for="phone">Số điện thoại:  </label>
+        <input className="infomation-"type="tel" id="phone" />
       </div>
       <div>
-        <label for="address">Địa chỉ</label>
-        <input type="text" id="address" />
+        <label for="address">Địa chỉ:  </label>
+        <input className="infomation-"type="text" id="address" />
       </div>
 
-      <h4>Danh sách sản phẩm mua</h4>
+      <h3>Danh sách sản phẩm mua</h3>
       <div className="wrapper">
         {listProd && listProd.map((prod, index) => <div key={index} className="item">
           <img src={prod.logo} alt="" />
-          <h3>{prod.name}</h3>
-          <p>Đơn giá: {prod.price}</p>
-          <p>Số lượng: {prod.quanity}</p>
-          <p>Thành tiền: {prod.price * prod.quanity}</p>
+          <p>{prod.name}</p>
+          <div className="">
+            <p>Đơn giá: {prod.price}₫</p>
+            <p>Số lượng: {prod.quanity}</p>
+            <p>Thành tiền: {prod.price * prod.quanity}</p>
+          </div>
         </div>)}
-        <p className="tong-tien">Tổng tiền: {listProd.reduce((pre, curr) => {
-        return pre + (curr.price * curr.quanity)
-      }, 0)}</p>
       </div>
-      {/* <p>Tổng tiền: {listProd.reduce((pre, curr) => {
-        return pre + (curr.price * curr.quanity)
-      }, 0)}</p> */}
+
+      <p className="total-amount">Tổng tiền: {listProd.reduce((pre, curr) => {
+          return pre + (curr.price * curr.quanity)
+        }, 0)}
+      </p>
     </div> 
     : <div className="notification">Không có sản phẩm nào vui lòng thêm sản phẩm vào giỏ hàng<a href="/">Về trang chủ</a></div>
     }   

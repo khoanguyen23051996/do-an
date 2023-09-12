@@ -1,5 +1,4 @@
 import { ramBrands } from "../../shared/utils/constant";
-import { cpuBrands } from "../../shared/utils/constant";
 import "./ProductDetail.css";
 import { useNavigate, useParams } from "react-router-dom";
 import { useDispatch } from 'react-redux'
@@ -20,7 +19,8 @@ export const ProductDetail = () => {
   const addToCart = () => {
     dispatch(
       addProd(
-        {...product, quanity: quanity}
+        {...product, quanity: quanity},
+        alert ('Thêm vào giỏ hàng thành công')
       )
     )
 
@@ -34,18 +34,17 @@ export const ProductDetail = () => {
     {product ? 
     <div className="container">
       <div className="product-logo">
-      <p>{product.name}</p>
+        <p>{product.name}</p>
         <img src={product.logo} alt="" />
       </div>
       <div className="product-info">
         <p>{product.description}</p>
-        {/* <form className="detail-product-form"> */}
-          <input className= "input"type="number" value={quanity} onChange={(event) => {setQuanity(+event.target.value)}} />
-          <button className= "add-cart" onClick={addToCart}>Add to cart</button>
-        {/* </form> */}
+        <input className= "input"type="number" value={quanity} onChange={(event) => {setQuanity(+event.target.value)}} />
+        <button className= "add-cart" onClick={addToCart}>Thêm vào giỏ hàng</button>
       </div>
     </div> 
     :<div className="notification">Không tìm thấy nhãn hàng</div>
     }   
   </div>;
 };
+

@@ -2,15 +2,21 @@
     max-width: 1140px;
     width: 100%;
     margin: 0 auto;
-    margin-top: 200px;
+    margin-top: 75px;
 }
 
 .wrapper {
-    margin-top: 50px;
+    margin-top: 35px;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-content: space-between;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 50px;
+    color: lightpink;
 }
 
 .notification {
@@ -24,12 +30,13 @@ img {
     align-items: center;
 }
 
-.Infomation {
-    padding-top: 100px;
+.infomation {
+    margin-left: 10px;
 }
 
-.tong-tien {
-    margin-top: 1100px;
-    margin-left: -800px;
+.total-amount {
+    text-align: left;
+    margin-left: 100px;
+    color: lightgreen;
 }
 

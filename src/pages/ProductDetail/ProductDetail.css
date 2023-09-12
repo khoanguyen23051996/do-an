@@ -1,40 +1,38 @@
 .container {
     width: 100%;
-    display: flex;
-    justify-content: space-between;
     align-items: center;
-    gap: 20px;
 }
 
+.product-logo {
+    padding-top: 50px;
+}
 .product-logo p {
     text-align: left;
-    font-size: 1.5rem;
+    font-size: 20px;
+    margin-right: 50px;
 }
 
 .product-logo img {
-    width: 500px;
+    width: 350px;
 }
 
 .product-info p {
     text-align: left;
-    font-size: 1.5rem;
-    margin-block: .3em;
+    margin-bottom: 20px;
 }
 
-form.detail-product-form .input {
+.product-info input {
+    margin-left: 30px;
     width: 50px;
-    margin-bottom: 1em;
-    padding: 8px;
-    border: unset;
-    border-radius: 8px;
+    margin-right: 20px;
 }
 
-form.detail-product-form .add-cart {
+.product-info button {
+   
+    text-decoration: none;
     background-color: red;
-    color: antiquewhite;
-    border: unset;
-    border-radius: 10px;
-    font-size: 50px;
-    display: flex;
-    padding: 10px 15px;
+    color: white; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    font-size: 16px; 
 }

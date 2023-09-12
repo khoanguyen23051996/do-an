@@ -26,20 +26,21 @@ export const Cart = () => {
     )
   }
   return <div>
-    {listProd.length ? 
+    {listProd.length ?  
     <div className="container">
       <h1>Giỏ Hàng</h1>
       <div className="wrapper">
-        {listProd && listProd.map((prod, index) => <div key={index} className="item">
+          {listProd && listProd.map((prod, index) => <div key={index} className="item">    
           <img src={prod.logo} alt="" />
-          <h3>{prod.name}</h3>
+          <p>{prod.name}</p>
           <input type="number" defaultValue={prod.quanity} onChange={(event) => {updateCartHandle(prod, +event.target.value)}} />
-          <p><button onClick={() => {delCartHandle(prod.id)}}>Xóa</button></p>
+          <p><button className="remove-item" onClick={() => {delCartHandle(prod.id)}}>Xóa</button></p>
         </div>)}
-        <Link className="check-out"to="/checkout">Tới trang thanh toán</Link>
       </div>
-      {/* <Link className="check-out"to="/checkout">Tới trang thanh toán</Link> */}
-    </div> 
+
+      <Link className="check-out"to="/checkout">Tới trang thanh toán</Link>
+    </div>
+
     : <div className="notification">Giỏ hàng trống</div>
     }   
   </div>;
