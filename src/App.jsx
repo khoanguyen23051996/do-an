@@ -16,34 +16,18 @@ function App() {
         <Routes>
           <Route path="/" element={<Navigate to="/home" />} />
           <Route path="/home" element={<Home />} />
-          <Route
-            path="/ram"
-            element={
-              <div>
-                <Outlet />
-              </div>
-            }
-          >
+
+           {/* Ram */}
+          <Route  path="/ram" element={ <div> <Outlet /> </div> }>
             <Route path="" element={<Ram />} />
             <Route path=":brand" element={<Outlet />}>
               <Route path="" element={<Brand />} />
               <Route path=":product" element={<ProductDetail />}></Route>
             </Route>
           </Route>
-          <Route
-            path="/cpu"
-            element={
-              <div>
-                <Outlet />
-              </div>
-            }
-          >
-            <Route path="" element={<CPU />} />
-            <Route path=":brand" element={<Outlet />}>
-              <Route path="" element={<Brand />} />
-              <Route path=":product" element={<ProductDetail />}></Route>
-            </Route>
-          </Route>
+
+
+          <Route path="/cpu" element={<CPU />}/>
           <Route path="/ssd" element={<SSD />} />
           <Route path="/monitor" element={<Monitor />} />
           <Route path="/mouse" element={<Mouse />} />
