@@ -28,6 +28,9 @@
 
 .logo-brand img {
   padding: 20px 0 0 50px;
+  width: 300px;
+  height: 250px;
+
 }
 
 @media screen and (min-width: 1200px) {

@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
 import { ProductCard } from "../../components/ui/ProductCard/ProductCard";
-import { cpuBrands, ramBrands } from "../../shared/utils/constant";
+import { cpuBrands, keyboardBrands, monitorBrands, mouseBrands, ramBrands, ssdBrands } from "../../shared/utils/constant";
 import "./Brand.css";
 import { useParams } from "react-router-dom";
 // render trang danh sách sản phẩm theo brand
 export const Brand = () => {
   let params = useParams();
-  let brandsArray = [ramBrands, cpuBrands]; // Chỉ cần thêm brand vào
+  let brandsArray = [ramBrands, cpuBrands, ssdBrands, monitorBrands, mouseBrands, keyboardBrands]; // Chỉ cần thêm brand vào
   const [brand, setBrand] = useState({});
 
   useEffect(() => {

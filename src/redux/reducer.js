@@ -17,7 +17,7 @@ const rootReducer = (state = initState, action) => {
         case 'prod/update':
             let prods = state.prods
             let prodIndex = prods.findIndex((item) => item.id === action.payload.id)
-            prods[prodIndex] = {...prods[prodIndex], quanity: action.payload.quanity}
+            prods[prodIndex] = {...prods[prodIndex], quantity: action.payload.quantity}
 
             return {
                 prods

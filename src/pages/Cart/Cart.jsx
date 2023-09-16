@@ -5,15 +5,17 @@ import { addProd, deleteProd, updateProd } from './../../redux/action';
 import { listCart } from './../../redux/selector';
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { ProductCard } from './../../components/ui/ProductCard/ProductCard';
+
 
 export const Cart = () => {
   let listProd = useSelector(listCart)
   const dispatch = useDispatch()
 
-  const updateCartHandle = (prod, quanity) => {
+  const updateCartHandle = (prod, quantity) => {
     dispatch(
       updateProd(
-        {id: prod.id, quanity: quanity}
+        {id: prod.id, quantity: quantity}
       )
     )
   }
@@ -33,7 +35,7 @@ export const Cart = () => {
           {listProd && listProd.map((prod, index) => <div key={index} className="item">    
           <img src={prod.logo} alt="" />
           <p>{prod.name}</p>
-          <input type="number" defaultValue={prod.quanity} onChange={(event) => {updateCartHandle(prod, +event.target.value)}} />
+          <input type="number" defaultValue={prod.quantity} onChange={(event) => {updateCartHandle(prod, +event.target.value)}} />
           <p><button className="remove-item" onClick={() => {delCartHandle(prod.id)}}>Xóa</button></p>
         </div>)}
       </div>

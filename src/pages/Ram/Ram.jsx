@@ -1,5 +1,5 @@
 import "./Ram.css";
-import { ramBrands } from "../../shared/utils/constant";
+import { ramBrands } from './../../shared/utils/constant';
 import { BrandCard } from "../../components/ui/BrandCard/BrandCard";
 
 export const Ram = () => {

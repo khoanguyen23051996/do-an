@@ -1,26 +1,25 @@
+import "./ProductDetail.css";
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate, useParams } from "react-router-dom";
 import { ramBrands } from "../../shared/utils/constant";
-
-import "./ProductDetail.css";
-import { listCart } from './../../redux/selector';
+import { listCart } from "../../redux/selector";
 
 export const ProductDetail = () => {
   let params = useParams();
-  let brand = ramBrands.find((item) => item.url === params.brand);
+  let brand = {ramBrands}.find((item) => item.url === params.brand);
   const [quantity, setQuantity] = useState(1);
   let product = brand?.products
     ? brand.products.find((item) => item.url === params.product)
     : undefined;
   const dispatch = useDispatch();
-  const listCart = useSelector(listCart);
+  const listcart = useSelector(listCart);
   const navigation = useNavigate();
 
   const addToCart = () => {
     dispatch(
       addProd(
-        {...product, quanity: quanity}
+        {...product, quantity: quantity}
       )
     )
 
@@ -39,7 +38,7 @@ export const ProductDetail = () => {
       <div className="product-info">
         <p>{product.description}</p>
         <form className="detail-product-form">
-          <input className= "input"type="number" value={quanity} onChange={(event) => {setQuanity(+event.target.value)}} />
+          <input className= "input"type="number" value={quantity} onChange={(event) => {setQuantity(+event.target.value)}} />
           <button className= "add-cart" onClick={addToCart}>Add to cart</button>
         </form>
       </div>

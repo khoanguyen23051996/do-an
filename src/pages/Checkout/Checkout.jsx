@@ -30,14 +30,14 @@ export const Checkout = () => {
           <p>{prod.name}</p>
           <div className="">
             <p>Đơn giá: {prod.price}₫</p>
-            <p>Số lượng: {prod.quanity}</p>
-            <p>Thành tiền: {prod.price * prod.quanity}</p>
+            <p>Số lượng: {prod.quantity}</p>
+            <p>Thành tiền: {prod.price * prod.quantity}</p>
           </div>
         </div>)}
       </div>
 
       <p className="total-amount">Tổng tiền: {listProd.reduce((pre, curr) => {
-          return pre + (curr.price * curr.quanity)
+          return pre + (curr.price * curr.quantity)
         }, 0)}
       </p>
     </div> 

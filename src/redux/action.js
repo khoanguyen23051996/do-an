@@ -12,7 +12,7 @@ export const updateProd = (data) => {
         type: 'prod/update',
         payload: {
             id: data.id,
-            quanity: data.quanity,
+            quantity: data.quantity,
         }
     }
 }

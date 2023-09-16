@@ -27,13 +27,53 @@ function App() {
             </Route>
           </Route>
 
+          {/* CPU */}
+          <Route path="/cpu" element={<div><Outlet/></div>}>
+          <Route path="" element={<CPU />} />
+            <Route path=":brand" element={<Outlet />}>
+              <Route path="" element={<Brand />} />
+              <Route path=":product" element={<ProductDetail />}></Route>
+            </Route>
+          </Route>
 
-          <Route path="/cpu" element={<CPU />}/>
-          <Route path="/ssd" element={<SSD />} />
-          <Route path="/monitor" element={<Monitor />} />
-          <Route path="/mouse" element={<Mouse />} />
-          <Route path="/keyboard" element={<Keyboard />} />
+          {/* SSD */}
+          <Route path="/ssd" element={<div><Outlet/></div>}>
+          <Route path="" element={<SSD />} />
+            <Route path=":brand" element={<Outlet />}>
+              <Route path="" element={<Brand />} />
+              <Route path=":product" element={<ProductDetail />}></Route>
+            </Route>
+          </Route>
+
+          {/* Màn Hình */}
+          <Route path="/monitor" element={<div><Outlet/></div>}>
+          <Route path="" element={<Monitor />} />
+            <Route path=":brand" element={<Outlet />}>
+              <Route path="" element={<Brand />} />
+              <Route path=":product" element={<ProductDetail />}></Route>
+            </Route>
+          </Route>
+
+          {/* Chuột */}
+          <Route path="/mouse" element={<div><Outlet/></div>}>
+          <Route path="" element={<Mouse />} />
+            <Route path=":brand" element={<Outlet />}>
+              <Route path="" element={<Brand />} />
+              <Route path=":product" element={<ProductDetail />}></Route>
+            </Route>
+          </Route>
+
+          {/* Bàn phím */}
+          <Route path="/keyboard" element={<div><Outlet/></div>}>
+          <Route path="" element={<Keyboard />} />
+            <Route path=":brand" element={<Outlet />}>
+              <Route path="" element={<Brand />} />
+              <Route path=":product" element={<ProductDetail />}></Route>
+            </Route>
+          </Route>
+
           <Route path="/cart" element={<Cart />} />
+
           <Route path="/checkout" element={<Checkout />} />
           {/* <Footer /> */}
         </Routes>
