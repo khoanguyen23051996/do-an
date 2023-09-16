@@ -7,6 +7,7 @@ import { Brand } from "./pages/Brands/Brand";
 import { ProductDetail } from "./pages/ProductDetail/ProductDetail";
 import { Cart } from "./pages/Cart/Cart";
 import { Checkout } from "./pages/Checkout/Checkout";
+import Footer from "./components/layouts/Footer/Footer";
 
 function App() {
   //config layout, routes
@@ -34,6 +35,7 @@ function App() {
           <Route path="/keyboard" element={<Keyboard />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/checkout" element={<Checkout />} />
+          {/* <Footer /> */}
         </Routes>
       </Layout>
     </>
