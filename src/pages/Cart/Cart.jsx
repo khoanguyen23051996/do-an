@@ -1,11 +1,9 @@
 import "./Cart.css";
 import { useDispatch } from 'react-redux'
 import {useSelector} from 'react-redux'
-import { addProd, deleteProd, updateProd } from './../../redux/action';
+import { deleteProd, updateProd } from './../../redux/action';
 import { listCart } from './../../redux/selector';
-import { useState } from "react";
 import { Link } from "react-router-dom";
-import { ProductCard } from './../../components/ui/ProductCard/ProductCard';
 
 
 export const Cart = () => {

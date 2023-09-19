@@ -3,12 +3,14 @@
 }
 
 .product-card {
-  text-align: center;
+  width: 100%;
 }
 
 .product-card img {
   width: 250px;
   border-radius: 10%;
+  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .product-card img:hover {
@@ -19,11 +21,14 @@
   text-decoration: none;
 }
 
+.product-card a
+
 .price {
   color: red;
 }
 
 p {
+  margin: 15px 0;
   font-size: 15px;
 }
 

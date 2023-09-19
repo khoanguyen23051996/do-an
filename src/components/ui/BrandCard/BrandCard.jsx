@@ -7,9 +7,6 @@ export const BrandCard = ({ logo,url,name  }) => {
     {/* link react router dom*/}
     <Link to={url}>
       <img src={logo} alt="" />
-      <div>
-        <p>{name}</p>
-      </div>
     </Link>
   </div>;
 };

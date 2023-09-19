@@ -11,15 +11,15 @@ export const Checkout = () => {
       <h1>Thanh toán</h1>
 
       <div>
-        <label for="name">Tên người mua:  </label>
+        <label htmlFor="name">Tên người mua:  </label>
         <input className="infomation-"type="text" id="name" />
       </div>
       <div>
-        <label for="phone">Số điện thoại:  </label>
+        <label htmlFor="phone">Số điện thoại:  </label>
         <input className="infomation-"type="tel" id="phone" />
       </div>
       <div>
-        <label for="address">Địa chỉ:  </label>
+        <label htmlFor="address">Địa chỉ:  </label>
         <input className="infomation-"type="text" id="address" />
       </div>
 

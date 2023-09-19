@@ -1,3 +1,5 @@
+import { FaLocationArrow, FaMobileAlt, FaEnvelope } from "react-icons/fa";
+import Payment from "/src/assets/img/payments.png"
 import "./Footer.css";
 
 export default function Footer () {

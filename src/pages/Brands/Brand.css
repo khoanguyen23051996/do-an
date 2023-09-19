@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;  
+}
+
 .brand-container {
   max-width: 1140px;
   width: 100%;
@@ -18,8 +22,6 @@
   margin: 0 auto;
   margin-top: 200px;
 }
-
-@media screen and (min-width: 768px) {}
   
 .wrapper {
   grid-template-columns: repeat(2, 1fr) ;

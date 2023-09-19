@@ -52,3 +52,14 @@
 .check-out:hover {
     background-color: rgb(196, 76, 76);
 }
+
+.notification {
+    height: 200px;
+}
+
+.remove-item {
+    font-size: 20px;
+    border: none;
+    padding: 8px 15px;  
+    border-radius: px;
+}
